@@ -1,4 +1,4 @@
-$primary-color: black;
+$primary-color: #333f48;
 $sidebar-width: 275px;
 
 body {
@@ -31,6 +31,7 @@ body {
     padding-bottom: 25ex;
     flex: 1;
     background-color: #e9e6df;
+    min-height: 100vh;
 }
 
 header {
@@ -64,4 +65,26 @@ nav ul li a {
 .content {
     margin-top: 20px;
     padding-left: 50px;
+    padding-right: 5ex;
+    width: 950px;
+}
+
+p {
+    word-break: keep-all;
+    text-align: justify;
+    line-height: 175%;
+    padding-left: 5ex
+}
+
+h2 {
+    font-size: 17pt;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    padding-left: 2ex;
+    display: fixed;
+    align-items: left;
+}
+
+a.contact{
+    color: #d6d2c4;
 }
